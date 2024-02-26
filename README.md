@@ -64,6 +64,7 @@ Este generador de gatitos aleatorios ha sido creado por **[Cristina Correa](http
 > - [API de Obtención de Gatitos](https://thecatapi.com/)
 > - CSS
 >    - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
+>    - [aspect-ratio - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio)
 >    - [Open-Source UI elements - universe.io](https://uiverse.io/)
 > - JavaScript:
 >    - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
