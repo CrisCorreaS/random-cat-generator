@@ -4,11 +4,129 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  flex-direction: column;
+  height: 90vh;
   background-color: #faf0f2;
   font-size: 1em;
 }
 
+/* Switch */
+.switch {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 5em;
+  height: 2.5em;
+  user-select: none;
+  margin: 1rem;
+}
+
+.switch .cb {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color: #c87d80;
+  border-radius: 0.1em;
+  transition: 0.4s;
+  text-transform: uppercase;
+  font-weight: 700;
+  overflow: hidden;
+  box-shadow: -0.3em 0 0 0 #c87d80, -0.3em 0.3em 0 0 #c87d80,
+    0.3em 0 0 0 #c87d80, 0.3em 0.3em 0 0 #c87d80, 0 0.3em 0 0 #c87d80;
+}
+
+.toggle > .left {
+  position: absolute;
+  display: flex;
+  width: 50%;
+  height: 88%;
+  background-color: #f3f3f3;
+  color: #c87d80;
+  left: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  transform-origin: right;
+  transform: rotateX(10deg);
+  transform-style: preserve-3d;
+  transition: all 150ms;
+}
+
+.left::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #f9dadc;
+  transform-origin: center left;
+  transform: rotateY(90deg);
+}
+
+.left::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(239, 181, 186);
+  transform-origin: center bottom;
+  transform: rotateX(90deg);
+}
+
+.toggle > .right {
+  position: absolute;
+  display: flex;
+  width: 50%;
+  height: 88%;
+  background-color: #f3f3f3;
+  color: rgb(239, 181, 186);
+  right: 1px;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  transform-origin: left;
+  transform: rotateX(10deg) rotateY(-45deg);
+  transform-style: preserve-3d;
+  transition: all 150ms;
+}
+
+.right::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #f9dadc;
+  transform-origin: center right;
+  transform: rotateY(-90deg);
+}
+
+.right::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(239, 181, 186);
+  transform-origin: center bottom;
+  transform: rotateX(90deg);
+}
+
+.switch input:checked + .toggle > .left {
+  transform: rotateX(10deg) rotateY(45deg);
+  color: rgb(239, 181, 186);
+}
+
+.switch input:checked + .toggle > .right {
+  transform: rotateX(10deg) rotateY(0deg);
+  color: #c87d80;
+}
+
+/* Cards */
 .card {
   width: 40rem;
   height: 40rem;
@@ -27,6 +145,7 @@ body {
   gap: 0.5em;
   display: grid;
   place-content: center;
+  place-items: center;
 }
 
 .card-button {
@@ -70,7 +189,7 @@ body {
 }
 
 img {
-  height: 23rem;
+  max-height: 25rem;
   max-width: 25rem;
   border-radius: 1rem;
 }

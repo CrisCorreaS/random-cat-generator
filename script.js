@@ -9,11 +9,14 @@ let numero = 1;
 async function showGatito(num) {
   const imgElement = new Image();
   imgElement.src = gatitos[num - 1].img;
+  imgElement.width = gatitos[num - 1].width;
+  imgElement.height = gatitos[num - 1].height;
 
   await imgElement.decode();
 
   enlace.href = gatitos[num - 1].img;
   imagen.src = gatitos[num - 1].img;
+  imagen.style.aspectRatio = gatitos[num - 1].width / gatitos[num - 1].height;
 
   parrafo.innerHTML = "Este es el gatito número " + num;
   numero++;
