@@ -64,9 +64,12 @@ Este generador de gatitos aleatorios ha sido creado por **[Cristina Correa](http
 > - [API de Obtención de Gatitos](https://thecatapi.com/)
 > - CSS
 >    - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
+>    - [Open-Source UI elements - universe.io](https://uiverse.io/)
 > - JavaScript:
 >    - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
 >    - [JavaScript MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+>    - [How to Make Dark Mode for Websites using HTML CSS & JavaScript - GeeksforGeeks](https://www.geeksforgeeks.org/how-to-make-dark-mode-for-websites-using-html-css-javascript/)
+>    - [toggle() method - MDN](https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList/toggle)
 > - jQuery:
 >    - [Documentación Oficial de jQuery](https://jquery.com/)
 >    - [Curso de jQuery - Didacticode](https://didacticode.com/curso/curso-de-jquery/)
