@@ -23,6 +23,7 @@ Este generador de gatitos aleatorios ha sido creado por **[Cristina Correa](http
 ### Funcionalidades:
  1️⃣ **Creación de imágenes de gatitos aleatorios**:
   - Crea imágenes de gatitos en tiempo real.
+  - Contabiliza en tiempo real el número de imágenes de gatitos que se han visto
     
  ![Vista previa de las funcionalidades del conversor](https://github.com/CrisCorreaS/random-cat-generator/blob/main/video/feature1.gif)
 
