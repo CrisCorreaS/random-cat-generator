@@ -14,10 +14,10 @@ Este generador de gatitos aleatorios ha sido creado por **[Cristina Correa](http
 ### ➡️ **Demo desplegada en GitHub Pages:** **[Haz click aquí](https://criscorreas.github.io/random-cat-generator/)**
 
 #### Vista del generador de gatitos aleatorios
-##### Modo Claro
+- **Modo Claro**
 ![Vista previa del generador de gatitos aleatorios modo claro](https://github.com/CrisCorreaS/random-cat-generator/blob/main/img/visualizaci%C3%B3n/generador-vista-clara.png)
 
-#### Modo Oscuro
+- **Modo Oscuro**
 ![Vista previa del generador de gatitos aleatorios modo oscuro](https://github.com/CrisCorreaS/random-cat-generator/blob/main/img/visualizaci%C3%B3n/generador-vista-oscura.png)
 
 ### Funcionalidades:
