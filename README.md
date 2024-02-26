@@ -5,7 +5,7 @@
 <img alt="css3" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 <img alt="javascript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 <br/><br/>
-![Imagen del generador de gatitos aleatorios](https://github.com/CrisCorreaS/random-cat-generator/blob/main/img/visualizaci%C3%B3n/conversor-vista.png)
+![Vista previa del generador de gatitos aleatorios modo claro](https://github.com/CrisCorreaS/random-cat-generator/blob/main/img/visualizaci%C3%B3n/generador-vista-clara.png)
 
 Este generador de gatitos aleatorios ha sido creado por **[Cristina Correa](https://www.linkedin.com/in/cristina-correa-segade/)**
 
@@ -14,7 +14,11 @@ Este generador de gatitos aleatorios ha sido creado por **[Cristina Correa](http
 ### ➡️ **Demo desplegada en GitHub Pages:** **[Haz click aquí](https://criscorreas.github.io/random-cat-generator/)**
 
 #### Vista del generador de gatitos aleatorios
-![Vista previa del generador de gatitos aleatorios](https://github.com/CrisCorreaS/random-cat-generator/blob/main/img/visualizaci%C3%B3n/conversor-vista.png)
+##### Modo Claro
+![Vista previa del generador de gatitos aleatorios modo claro](https://github.com/CrisCorreaS/random-cat-generator/blob/main/img/visualizaci%C3%B3n/generador-vista-clara.png)
+
+#### Modo Oscuro
+![Vista previa del generador de gatitos aleatorios modo oscuro](https://github.com/CrisCorreaS/random-cat-generator/blob/main/img/visualizaci%C3%B3n/generador-vista-oscura.png)
 
 ### Funcionalidades:
  1️⃣ **Creación de imágenes de gatitos aleatorios**:
