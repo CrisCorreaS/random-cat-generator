@@ -1,3 +1,6 @@
+let body = document.querySelector("body");
+let switchButton = document.querySelector(".switch");
+let checkBox = document.querySelector("input[type='checkbox']");
 let enlace = document.querySelector("a");
 let imagen = document.querySelector("img");
 let parrafo = document.querySelector("p");
@@ -38,5 +41,12 @@ function addGatito() {
   });
 }
 
+function cambioModo() {
+  body.classList.toggle("dark-mode");
+
+  checkBox.checked ? body.style.backgroundColor = "#1d1d39" : body.style.backgroundColor = ""; 
+}
+
+switchButton.addEventListener("change", cambioModo, false);
 document.addEventListener("DOMContentLoaded", addGatito, false);
 siguiente.addEventListener("click", addGatito, false);

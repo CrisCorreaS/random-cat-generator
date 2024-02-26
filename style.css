@@ -179,7 +179,7 @@ body {
 /*Hover*/
 .card:hover {
   border-color: #c87d80;
-  box-shadow: 0 4px 18px 0 rgba(200, 125, 128, 0.25);
+  box-shadow: 0 4px 18px 0 rgba(200, 125, 128, 0.5);
 }
 
 .card:hover .card-button {
@@ -224,6 +224,79 @@ small > a {
   font-size: 13px;
 }
 
-.dark.mode body {
-  background-color: #fffefe;
+/* DARK MODE .dark-mode */
+.dark-mode body {
+  background-color: #1d1d39;
+}
+
+.dark-mode .toggle {
+  background-color: #d6cafc;
+  box-shadow: -0.3em 0 0 0 #d6cafc, -0.3em 0.3em 0 0 #d6cafc,
+    0.3em 0 0 0 #d6cafc, 0.3em 0.3em 0 0 #d6cafc, 0 0.3em 0 0 #d6cafc;
+}
+
+.dark-mode .toggle>.left {
+  background-color: #895ef6;
+  color: #f3f3f3;
+}
+
+.dark-mode .left::before {
+  background-color: #a78af9;
+}
+
+.dark-mode .left::after {
+  background-color: #6236df;
+}
+
+.dark-mode .toggle>.right {
+  background-color: #8360e3;
+  color: #f3f3f3;
+}
+
+.dark-mode .right::before {
+  background-color: #a78af9;
+}
+
+.dark-mode .right::after {
+  background-color: #6236df;
+}
+
+.dark-mode .switch input:checked+.toggle>.left {
+  color: #f3f3f3;
+}
+
+.dark-mode .switch input:checked+.toggle>.right {
+  color: #f3f3f3;
+}
+
+/* Cards */
+.dark-mode .card {
+  background: #4b4f6b;
+  border: 2px solid #373753;
+}
+
+.dark-mode .card-details {
+  color: #fcfdfc;
+}
+
+.dark-mode .card-button {
+  background-color: #895ef6;
+  color: #fff;
+}
+
+/*Hover*/
+.dark-mode .card:hover {
+  border-color: #fcfdfc;
+  box-shadow: 0 4px 18px 0 rgba(228, 227, 227, 0.5);
+}
+
+.dark-mode footer {
+  background-color: #0a0e21;
+  color: #fcfdfc;
+  box-shadow: 0 -2px 10px rgba(247, 247, 247, 0.5);
+  border-top: 1px solid #ede5f0;
+}
+
+.dark-mode small>a {
+  color: #fefffe;
 }
